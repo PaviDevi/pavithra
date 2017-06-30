@@ -2,20 +2,20 @@
 #include<conio.h>
 int main()
 {
-int n,c;
+int k,b;
 clrscr();
 printf("enter a number\n");
-scanf("%d",&n);
-if(n==2)
+scanf("%d",&k);
+if(k==2)
 printf("prime number\n");
 else
 {
-for(c=2;c<=n;c++)
+for(b=2;b<=n;b++)
 {
-if(n%c==0)
+if(k%c==0)
 break;
 }
-if(c!=n)
+if(b!=k)
 printf("not prime number\n");
 else
 printf("prime number\n");
